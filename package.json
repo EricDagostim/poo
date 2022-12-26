@@ -1,0 +1,25 @@
+{
+  "name": "poo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricDagostim/poo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EricDagostim/poo/issues"
+  },
+  "homepage": "https://github.com/EricDagostim/poo#readme",
+  "dependencies": {
+    "next": "^13.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
