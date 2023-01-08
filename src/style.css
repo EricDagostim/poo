@@ -5,7 +5,33 @@
 }
 
 .title{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 900;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 800;
     font-size: 2rem;
+    color: #ffffff;
+}
+
+.sub-title{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.panel{
+    background-color: #7a541e;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;    
+
+}
+
+.btn-action{
+    padding: 10px 15px;
+    background-color:  #fff;
+    border-radius: 5px;
+    border: none;
+    color: rgb(66, 35, 6);
 }
