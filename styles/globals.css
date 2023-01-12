@@ -5,8 +5,8 @@
 }
 
 .title{
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: 800;
+    font-family:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, sans-serif;
+    font-weight: 700;
     font-size: 2rem;
     color: #ffffff;
 }
@@ -19,7 +19,7 @@
 }
 
 .panel{
-    background-color: #7a541e;
+    background-color: #c7c7c7;
     padding: 20px 40px;
     display: flex;
     flex-direction: column;

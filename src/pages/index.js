@@ -1,34 +1,33 @@
+
+import Link from 'next/link'
+import Button from '@mui/material/Button'
+import TextField from '@mui/material/TextField'
 import { Html } from 'next/document'
 import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
 
-
-export default function Home() {
+function Home() {
     return(
 
-        <html lang='pt-br'>
+        <Html lang='Pt-br'>
             <Head>
-                <title>Login sistema</title>
+            <title>Login do Sistema </title>
             </Head>
-
-            <body>
-               <div>
-                   <div className='panel'>
-                       <h1 className='title'>Bem-vindo de volta!</h1>
-                       <h2 className='sub-title'>Insira suas informações de login para acessar o sistema</h2>
-                       <input type="text" placeholder='Login'></input>
-                       <input type="password" placeholder='Senha'></input>
-
-                       <Link href='/not-remember-password'>Esqueci minha senha</Link>
-                       <button className='btn-action'>Acessar</button>
-                   </div>
-               </div>
-            </body>
-
-        </html>
-
-     
-
+            
+                <div>
+                    <Link href='/not-remember-password'>
+                        Sim
+                    </Link>
+    
+                    <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+            
+                    <Button variant="contained" color="success" size="small">
+                        Success
+                    </Button>
+                </div>
+            
+        </Html>
+                     
     )
 }
+
+export default Home
