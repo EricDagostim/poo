@@ -1,3 +1,6 @@
+import Link from 'next/link';
+import Button from '@mui/material/Button';
+
 function Tempo(props){
     const dynamicDate = new Date();
     const dynamicDateString = dynamicDate.toGMTString();
@@ -8,6 +11,12 @@ function Tempo(props){
             <div>
                 <div>{dynamicDateString} (Dinâmico)</div>
                 <div>{props.staticDateString} (Estático)</div>
+
+                <Link href='/'> 
+                    <Button variant="contained" color="primary" size="small">
+                    Login
+                    </Button>        
+                </Link>
             </div>
         </>
     )
